@@ -450,3 +450,62 @@ class MtcnnDetector(object):
         #num_of_data*9,num_of_data*10
         return all_boxes,landmarks
 
+    def single_detect_face(self, frame):
+        all_boxes = []  # save each image's bboxes
+        landmarks = []
+        batch_idx = 0
+        sum_time = 0
+
+        # databatch(image returned)
+        im = frame
+        # pnet
+        t1 = 0
+        if self.pnet_detector:
+            t = time.time()
+            # ignore landmark
+            boxes, boxes_c, landmark = self.detect_pnet(im)
+            t1 = time.time() - t
+            sum_time += t1
+            if boxes_c is None:
+                print("boxes_c is None...")
+                all_boxes.append(np.array([]))
+                   # pay attention
+                landmarks.append(np.array([]))
+                batch_idx += 1
+
+        # rnet
+        t2 = 0
+        if self.rnet_detector:
+            t = time.time()
+            # ignore landmark
+            boxes, boxes_c, landmark = self.detect_rnet(im, boxes_c)
+            t2 = time.time() - t
+            sum_time += t2
+            if boxes_c is None:
+                all_boxes.append(np.array([]))
+                landmarks.append(np.array([]))
+                batch_idx += 1
+
+        # onet
+        t3 = 0
+        if self.onet_detector:
+            t = time.time()
+            boxes, boxes_c, landmark = self.detect_onet(im, boxes_c)
+
+            t3 = time.time() - t
+            sum_time += t3
+            if boxes_c is None:
+                all_boxes.append(np.array([]))
+                landmarks.append(np.array([]))
+                batch_idx += 1
+
+            print(
+                "time cost " + '{:.3f}'.format(sum_time) + '  pnet {:.3f}  rnet {:.3f}  onet {:.3f}'.format(t1, t2,
+                                                                                                                t3))
+
+            all_boxes.append(boxes_c)
+            landmarks.append(landmark)
+            batch_idx += 1
+        # num_of_data*9,num_of_data*10
+        return all_boxes, landmarks
+

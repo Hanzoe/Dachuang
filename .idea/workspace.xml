@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0af88710-0c15-4039-a1d4-8aee0bf846e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Detection/MtcnnDetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detection/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detection/detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detection/fcn_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTCNN_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ONet_landmark/ONet-16.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ONet_landmark/ONet-16.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ONet_landmark/ONet-16.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ONet_landmark/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PNet_landmark/PNet-18.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PNet_landmark/PNet-18.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PNet_landmark/PNet-18.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PNet_landmark/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNet_landmark/RNet-14.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNet_landmark/RNet-14.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNet_landmark/RNet-14.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNet_landmark/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtcnn_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_landmark/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_landmark/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_landmark/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_landmark/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_landmark/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/valid-data/1803734262341352cb8a17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/valid-data/Img464920026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/valid-data/M001913CggSA1dGxLKAJU4TAAINQWyXMtw927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/valid-data/WIN_20201115_21_15_54_Pro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/valid-data/blm018876.jpg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Mask_model/Mask_model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="142">
+                  <caret line="229" column="18" lean-forward="true" selection-start-line="229" selection-start-column="18" selection-end-line="229" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#6#16#0" expanded="true" />
+                    <element signature="e#740#1627#0" />
+                    <element signature="e#1652#4612#0" />
+                    <element signature="e#5143#5876#0" />
+                    <element signature="e#5921#6712#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://E:/deeplearning/kouzhao/jiance3.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="92">
+                  <caret line="238" column="22" selection-start-line="238" selection-start-column="10" selection-end-line="238" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#6#16#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>== None</find>
+      <find>== None</find>
+      <find>==None</find>
+      <find>opencv_capture</find>
+      <find>detect_show</find>
+      <find>mod</find>
+      <find>Begin_detect</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="E:/deeplearning/kouzhao/my_main.py" />
+        <option value="$PROJECT_DIR$/my_main.py" />
+        <option value="$PROJECT_DIR$/Detection/MtcnnDetector.py" />
+        <option value="$PROJECT_DIR$/my_face.py" />
+        <option value="E:/deeplearning/kouzhao/jiance3.py" />
+        <option value="$PROJECT_DIR$/Mask_model/Mask_model.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-92" />
+    <option name="y" value="112" />
+    <option name="width" value="1750" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Mask_model">
+    <configuration name="Mask_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mask_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mask_model/Mask_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jiance3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/deeplearning/kouzhao" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/deeplearning/kouzhao/jiance3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_face" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_face.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Mask_model" />
+        <item itemvalue="Python.my_face" />
+        <item itemvalue="Python.jiance3" />
+        <item itemvalue="Python.image_test" />
+        <item itemvalue="Python.my_main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0af88710-0c15-4039-a1d4-8aee0bf846e5" name="Default Changelist" comment="" />
+      <created>1605594116628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605594116628</updated>
+      <workItem from="1605594119519" duration="599000" />
+      <workItem from="1605594754988" duration="13983000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14582000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-73" y="90" width="1400" height="824" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.072280176" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32934132" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26347306" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32934132" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.46407187" />
+      <window_info anchor="right" x="0" y="0" width="300" height="624" id="Documentation" order="0" side_tool="true" weight="0.32935917" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22453083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32934132" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26347306" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.46407187" />
+      <window_info anchor="right" x="0" y="0" width="300" height="624" id="Documentation" order="0" side_tool="true" weight="0.32935917" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/model$jiance3.coverage" NAME="jiance3 Coverage Results" MODIFIED="1605598212973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/deeplearning/kouzhao" />
+    <SUITE FILE_PATH="coverage/model$main.coverage" NAME="main Coverage Results" MODIFIED="1605599094885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/model$my_face.coverage" NAME="my_face Coverage Results" MODIFIED="1605603151185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/deeplearning/kouzhao/my_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#58#68#0" expanded="true" />
+            <element signature="e#1920#2476#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="586" selection-start-line="586" selection-end-line="586" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/fcn_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="869" selection-start-line="869" selection-end-line="869" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+          <folding>
+            <element signature="e#474#1930#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/MtcnnDetector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="348" column="33" lean-forward="true" selection-start-line="348" selection-start-column="33" selection-end-line="348" selection-end-column="33" />
+          <folding>
+            <element signature="e#76#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/site-packages/tensorflow/python/util/nest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="359" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1144" selection-start-line="1144" selection-end-line="1144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/site-packages/tensorflow/python/framework/tensor_shape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/site-packages/tensorflow/python/framework/dtypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/site-packages/tensorflow/python/pywrap_tensorflow_internal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="2458" selection-start-line="2458" selection-end-line="2458" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/deeplearning/kouzhao/jiance3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="238" column="22" selection-start-line="238" selection-start-column="10" selection-end-line="238" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mask_model/Mask_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="229" column="18" lean-forward="true" selection-start-line="229" selection-start-column="18" selection-end-line="229" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#16#0" expanded="true" />
+            <element signature="e#740#1627#0" />
+            <element signature="e#1652#4612#0" />
+            <element signature="e#5143#5876#0" />
+            <element signature="e#5921#6712#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
